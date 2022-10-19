@@ -1,4 +1,4 @@
-# BouvetOne oktober 2022
+# VS Code
 
 Noen små favoritter for å bli mer effektiv i VS Code
 
