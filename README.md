@@ -2,13 +2,25 @@
 
 Noen små favoritter for å bli mer effektiv i VS Code
 
-## Rundt koden
+## Generell bruk
 
 ### CLI for å åpne aktiv mappe i VSCode
 
 ```
-code .
+code . -r
 ```
+
+---
+
+### Quick open
+
+`Cmd + P` eller `Ctrl + P` (Mac eller Windows)
+
+---
+
+### Forhåndsvis Markdown
+
+`Ctrl + K V` eller `Cmd + K V` (eller Open Markdown Preview i command palette)
 
 ---
 
@@ -59,12 +71,6 @@ Kanskje primært lurt å gjøre i workspace settings, men veldig praktisk om man
 
 ---
 
-### Quick open
-
-`Cmd + P` eller `Ctrl + P` (Mac eller Windows)
-
----
-
 ## I koden
 
 ### Auto rename tag
@@ -104,11 +110,12 @@ Tabs>Tabs.List>(Tabs.Tab[value=""])*2:
 
 ### Markere flere linjer, multi-cursor
 
----
+`Ctrl+Shift+Up/Down arrow`
 
 ### Shrink og expand selection
 
 Expand: `Shift+Alt+Left arrow`
+
 Shrink: `Shift+Alt+Right arrow`
 
 ---
@@ -124,26 +131,20 @@ To primærmåter:
 
 ---
 
-### Colorize brackets
-
-Måtte tidligere ha en extension, men er nå støttet av VS Code. Heter der Linked editing i settings.
-
-![Colorized brackets](/assets/colorize-brackets.png)
-
----
-
-### JavaScript Booster
-
----
-
 ## Kodeformatering og kodekvalitet
+
+Format on save i kombinasjon med følgende extensions, i tillegg til å sette Prettier som default formatter, gjør livet enklere.
 
 ### Prettier
 
 Extension: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+
+Settings: Søk etter Default Formatter, velg Prettier
 
 ---
 
 ### ESLint
 
 Extension: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+
+I og med at ESLint også kan gjøre noe formatering, anbefaler jeg pakken `eslint-config-prettier` i ESLint-konfigen, som disabler ESLint sin konfig og gjør at Prettier "gjelder".
