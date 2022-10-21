@@ -1,3 +1,8 @@
 {
-  "recommendations": ["formulahendry.auto-rename-tag", "esbenp.prettier-vscode"]
+  "recommendations": [
+    "formulahendry.auto-rename-tag",
+    "esbenp.prettier-vscode",
+    "quicktype.quicktype",
+    "dbaeumer.vscode-eslint"
+  ]
 }
