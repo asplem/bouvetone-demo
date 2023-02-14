@@ -107,6 +107,14 @@ Extension: https://marketplace.visualstudio.com/items?itemName=formulahendry.aut
 
 ---
 
+### ts-barrelr
+
+Hvis man bruker barrel files for export og import, kan denne extensionen (som kan kalles ved høyreklikk på en mappe eller ved Command Palette) produsere en index.ts med alle filene i en mappe.
+
+Extension: https://marketplace.visualstudio.com/items?itemName=mikerhyssmith.ts-barrelr
+
+---
+
 ### Emmett
 
 Eksempler:
