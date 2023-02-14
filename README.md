@@ -20,7 +20,33 @@ code . -r
 
 ### Forhåndsvis Markdown
 
-`Ctrl + K V` eller `Cmd + K V` (eller Open Markdown Preview i command palette)
+`Ctrl + K, V` eller `Cmd + K, V` (eller Open Markdown Preview i command palette)
+
+---
+
+### Nyttige shortcuts i koderedigering
+
+`Ctrl + X` = klippe ut en hel linje
+
+`Ctrl + KC` = kommentere ut linja eller det som er markert
+
+`Ctrl + KU` = fjerne utkommentering
+
+`Alt + Arrow Up/Down` = flytte en linje opp eller ned
+
+`Shift + Alt + Arrow Up/Down` = multi-cursor, cusor på flere linjer
+
+#### Shrink og expand selection
+
+Expand: `Shift+Alt+Left arrow`
+
+Shrink: `Shift+Alt+Right arrow`
+
+---
+
+### Find all references
+
+`Alt+Shift+F12` eller bare høyreklikk og `Find All References`
 
 ---
 
@@ -99,24 +125,6 @@ Tabs>Tabs.List>(Tabs.Tab[value=""])*2:
     </Tabs.List>
 </Tabs>
 ```
-
----
-
-### Find all references
-
-`Alt+Shift+F12` eller bare høyreklikk og `Find All References`
-
----
-
-### Markere flere linjer, multi-cursor
-
-`Ctrl+Shift+Up/Down arrow`
-
-### Shrink og expand selection
-
-Expand: `Shift+Alt+Left arrow`
-
-Shrink: `Shift+Alt+Right arrow`
 
 ---
 
