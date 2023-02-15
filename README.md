@@ -97,7 +97,7 @@ Kanskje primært lurt å gjøre i workspace settings, men veldig praktisk om man
 
 ---
 
-## I koden
+## Et par nyttige verktøy
 
 ### Auto rename tag
 
