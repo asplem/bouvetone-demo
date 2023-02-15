@@ -34,7 +34,7 @@ code . -r
 
 `Alt + Arrow Up/Down` = flytte en linje opp eller ned
 
-`Shift + Alt + Arrow Up/Down` = multi-cursor, cusor på flere linjer
+`Shift + Ctrl + Arrow Up/Down` = multi-cursor, cusor på flere linjer
 
 #### Shrink og expand selection
 
